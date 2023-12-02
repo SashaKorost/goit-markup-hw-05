@@ -159,7 +159,7 @@ ul {
 .order-service {
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url("/images/background-foto.jpg");
+        url("/images/HW4/background-foto.jpg");
     background-size: cover;
     height: 600px;
     padding: 188px 0;
@@ -512,4 +512,49 @@ footer {
 .social-media-links-footer:hover,
 .social-media-links-footer:focus {
     background-color: #31d0aa;
+}
+
+.subsribe {
+    display: flex;
+    gap: 24px;
+}
+
+.subscribe-form {
+    margin-left: 80px;
+}
+
+.user-mail {
+    background-color: inherit;
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    ;
+}
+
+.subscribe-button {
+    background-color: #4D5AE5;
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFF;
+}
+
+.user-mail::placeholder {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
 }
